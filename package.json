@@ -1,0 +1,15 @@
+{
+  "name": "vue-fullpage-ssr",
+  "version": "1.0.0",
+  "description": "vue fullpage ssr ",
+  "main": "fullpage.ssr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "merrylmr",
+  "license": "ISC",
+  "dependencies": {
+    "fullpage.js": "^3.0.5",
+    "vue": "^2.6.10"
+  }
+}
