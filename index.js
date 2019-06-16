@@ -1,6 +1,6 @@
 import fullpage from 'fullpage.js/dist/fullpage.extensions.min'
 import 'fullpage.js/dist/fullpage.css'
-import Vue from 'vue'
+// import Vue from 'vue'
 
 function destory() {
   if (typeof fullpage_api !== 'undefined' && typeof fullpage_api.destroy !== 'undefined') {
@@ -30,6 +30,7 @@ const fullpageDirective = globalOptions => {
   }
 }
 
-export default () => {
-  Vue.directive('fullpage', fullpageDirective({}))
+const install = function (Vue, globalOptions = {}) {
+  Vue.directive('fullpage', fullpageDirective(globalOptions))
 }
+export default install
