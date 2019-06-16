@@ -12,8 +12,10 @@
     "type": "git",
     "url": "https://github.com/merrylmr/vue-fullpage-ssr"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "fullpage.js": "^3.0.5"
-  }
+  },
+  "files": [
+    "index"
+  ]
 }
