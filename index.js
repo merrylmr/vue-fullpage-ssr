@@ -1,6 +1,5 @@
 import fullpage from 'fullpage.js/dist/fullpage.extensions.min'
 import 'fullpage.js/dist/fullpage.css'
-// import Vue from 'vue'
 
 function destory() {
   if (typeof fullpage_api !== 'undefined' && typeof fullpage_api.destroy !== 'undefined') {
@@ -13,7 +12,6 @@ const fullpageDirective = globalOptions => {
     bind(el, binding, vnode) {
     },
     inserted(el, binding, vnode) {
-      console.log('insert fullpage-22222')
       const self = vnode.context
       const options = binding.value
       // 将fullpage实列挂载到组件实列上

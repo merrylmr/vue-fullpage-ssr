@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "merrylmr",
+  "author": "merrylmr<736633757@qq.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -14,7 +14,6 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "fullpage.js": "^3.0.5",
-    "vue": "^2.6.10"
+    "fullpage.js": "^3.0.5"
   }
 }
